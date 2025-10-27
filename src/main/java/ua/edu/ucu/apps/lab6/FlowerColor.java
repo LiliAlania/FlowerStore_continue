@@ -10,7 +10,7 @@ public enum FlowerColor {
     WHITE("#FFFFFF");
 
     private final String code;
-    private FlowerColor(String code){
+    private FlowerColor(String code) {
         this.code = code;
     }
 }
