@@ -19,9 +19,13 @@ public class Order {
     public void addItem(Item item) {
         items.add(item);
     }
+    
+    public void addItem(FlowerBucket flowerBucket) {
+        items.add(flowerBucket);
+    }
 
-    public void removeItem(Item item) {
-        items.remove(item);
+    public void removeItem(FlowerBucket flowerBucket) {
+        items.remove(flowerBucket);
     }
 
     public double calculateTotalPrice() {
