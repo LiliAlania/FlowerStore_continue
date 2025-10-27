@@ -14,8 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Lab6Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Lab6Application.class, args);
-	}
+		SpringApplication.run(Lab6Application.class, args);}
 	@GetMapping("/list")
 	// @RequestMapping(method = RequestMethod.GET, PATH = LIST)
 	public List<String> getRandomUUIds(){
